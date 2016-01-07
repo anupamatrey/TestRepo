@@ -37,6 +37,7 @@ public class App {
 			document.put("age", 30);
 			document.put("createdDate", new Date());
 			table.insert(document);
+//Test
 
 			/**** Find and display ****/
 			BasicDBObject searchQuery = new BasicDBObject();
